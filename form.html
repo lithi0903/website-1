@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CONTACT</title>
+</head>
+<div id="header"
+type="text">
+<header>
+    
+    <h1><b>CONTACT DETAILS</b></h1>
+    <nav>
+        <a href="index3.html" style="background-color:pink;">HOME</a>
+        <a href="day2.html"style="background-color:pink;">LIST AND TABLE</a>
+   <a href="day3.html"style="background-color:pink;">AUDIO AND VIDEO</a>
+   <a href="form.html"style="background-color:pink;">CONTACT</a><br>
+   <br>
+    </nav>
+    <marquee  style="background-color:rgb(219, 108, 192)"width="100%" direction="right to left" height="50px">
+        ENTER THE CONTACT DETAILS !!
+    </marquee>
+</header>
+</div>
+<body>
+    <main>
+        <section>
+            <h2>Please enter your details:</h2><br><br><br><br><br><br><br><br><br><br>
+            <form action="#" method="post">
+                <label for="name">Full Name:</label>
+                <input type="text" id="name" name="name" required placeholder="Enter your name"
+                pattern="^[a-zA-Z\s]+$" title="Name should only contain letters and spaces">
+                <span id="nameError" class="error-message"></span>
+                <br><br>
+
+                <label for="phone">Phone Number:</label>
+                <input type="number" id="phone" name="phone" required placeholder="Enter your phone number"
+                pattern="^\d{10}$" title="Phone number should be 10 digits without spaces or dashes.">
+                <br><br>
+
+                <label for="email">Email Address:</label>
+                <input type="email" id="email" name="email" required placeholder="Enter your email address">
+                <br><br>
+
+                <button type="submit">Submit</button>
+            </form>
+        </section>
+    </main>
+    <style>
+        form {
+            background-color: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            max-width: 400px;
+            margin: 0 auto;
+        }
+
+        label {
+            font-weight: bold;
+            display: block;
+            margin-bottom: 5px;
+        }
+
+        input {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 15px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+
+        input[type="tele"] {
+            background-color: #f9f9f9;
+        }
+
+        button {
+             background-color: #6eda72;
+             color: rgb(10, 10, 10);
+             padding: 10px 20px;
+             border: none;
+             border-radius: 4px;
+             cursor: pointer;
+             width: 100%;
+             font-size: 16px;
+        }
+
+        button:hover {
+             background-color: #45a049;
+            }
+            header{
+                background-color:rgb(238, 55, 168);
+                position:fixed;
+                text-align: center;
+     padding: 5px;
+     font-size:x-large;
+     font-family:Arial, Helvetica, sans-serif
+     top:0;
+     z-index:100px;
+     left:0;
+     width: 100%;
+            }
+      footer{
+                background-color:rgb(238, 55, 168);
+     text-align: center;
+     color:azure;
+     font-size:large;
+     font-family:Arial, Helvetica, sans-serif
+      }
+      a {
+  background-color: transparent;
+  text-decoration: none;
+}    
+    </style>
+
+    <footer>
+        <p>&copy; 2025 HTML. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
